@@ -8,8 +8,6 @@ pipeline {
                             }
                           
                        }
-        stage('test'){
-                   echo 'i am declarative pipline with stage 2'
-                   }
+       
          }
         }
