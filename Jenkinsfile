@@ -7,7 +7,7 @@ pipeline {
         stage('build') {
                             steps {
                               echo 'i am declarative pipline'
-                                sh 'mvn --version'
+                              
                             }
             
                           
