@@ -6,10 +6,7 @@ pipeline {
                               echo 'i am declarative pipline'
                                 sh 'mvn --version'
                             }
-                            steps {
-                              echo 'i am declarative pipline with step 2'
-                                sh 'mvn --version'
-                            }
+                          
                        }
         stage('test'){
                    echo 'i am declarative pipline with stage 2'
